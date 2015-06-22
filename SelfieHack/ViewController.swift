@@ -194,7 +194,7 @@ class ViewController: UIViewController,  AVCaptureMetadataOutputObjectsDelegate 
             //set the bounds for the rectangle outline that appears around the face.
             faceRectangleFrameView?.frame = metadataObj.bounds  //the bounds are obtained from the face object
             
-<<<<<<< HEAD
+
             //WRITE THE CODE FOR ALGORITHM THAT INDICATES THE POSITION OF THE FACE HERE.
             if(faceHeight * height > 400 && faceHeight * height < 500){
                 println("height centered")
@@ -202,34 +202,6 @@ class ViewController: UIViewController,  AVCaptureMetadataOutputObjectsDelegate 
                 if(faceWidth * width > 50 && faceWidth * width < 200){
                     println("width centered")
                     buttonBeep.play()
-
-                    
-                    //INCLUDE IMAGE CAPTURE HERE
-                    
-=======
-                //WRITE THE CODE FOR ALGORITHM THAT INDICATES THE POSITION OF THE FACE HERE.
-                if(faceHeight * height > 400 && faceHeight * height < 500){
-                    println("height centered")
-                    buttonBeep.play()
-                    
-                    if(faceWidth * width > 100 && faceWidth * width < 200){
-                        println("width centered")
-                        secondBeep.play()
-                        
-                        //INCLUDE IMAGE CAPTURE HERE
-                        if let VideoConnection =
-                            stillImageOutput!.connectionWithMediaType(AVMediaTypeVideo){
-                                stillImageOutput?.captureStillImageAsynchronouslyFromConnection(VideoConnection, completionHandler: {(sampleBuffer, error) in
-                                })
-                                
-                        }
-                        
-                        
-                    }//if
-                    else{
-                        println("width not centered")
-                    }//else
->>>>>>> origin/master
                 }//if
                 else{
                     println("width not centered")
