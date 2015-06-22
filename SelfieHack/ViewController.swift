@@ -46,22 +46,6 @@ class ViewController: UIViewController,  AVCaptureMetadataOutputObjectsDelegate 
         //4
         return audioPlayer!
     }
-
-    func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer  {
-        //1
-        var path = NSBundle.mainBundle().pathForResource(file as String, ofType: type as String)
-        var url = NSURL.fileURLWithPath(path!)
-        
-        //2
-        var error: NSError?
-        
-        //3
-        var audioPlayer:AVAudioPlayer?
-        audioPlayer = AVAudioPlayer(contentsOfURL: url, error: &error)
-        
-        //4
-        return audioPlayer!
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
