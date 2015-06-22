@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "753516643e94a642176e80421e37eade"
+inputs: 
+- "/Users/Vidyadhar/Desktop/Github/selfieHack-github-repo/SelfieHack/ViewController.swift"
+- "/Users/Vidyadhar/Desktop/Github/selfieHack-github-repo/SelfieHack/AppDelegate.swift"
