@@ -178,6 +178,10 @@ class ViewController: UIViewController,  AVCaptureMetadataOutputObjectsDelegate 
             //set the bounds for the rectangle outline that appears around the face.
             faceRectangleFrameView?.frame = metadataObj.bounds  //the bounds are obtained from the face object
             
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
             //WRITE THE CODE FOR ALGORITHM THAT INDICATES THE POSITION OF THE FACE HERE.
             if(faceHeight * height > 400 && faceHeight * height < 500){
                 println("height centered")
@@ -185,10 +189,13 @@ class ViewController: UIViewController,  AVCaptureMetadataOutputObjectsDelegate 
                 if(faceWidth * width > 50 && faceWidth * width < 200){
                     println("width centered")
                     buttonBeep.play()
+<<<<<<< HEAD
 
                     
                     //INCLUDE IMAGE CAPTURE HERE
 
+=======
+>>>>>>> origin/master
                 }//if
                 else{
                     println("width not centered")
