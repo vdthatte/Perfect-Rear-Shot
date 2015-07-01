@@ -37,10 +37,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Dlm-5A-fyL" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="OE3-C6-dpw"/>
-                            <constraint firstAttribute="bottom" secondItem="Dlm-5A-fyL" secondAttribute="bottom" constant="20" symbolic="YES" id="hrD-Do-cKI"/>
-                            <constraint firstItem="5ub-iG-5RS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="j2d-e4-SoE"/>
-                            <constraint firstItem="Dlm-5A-fyL" firstAttribute="leading" secondItem="5ub-iG-5RS" secondAttribute="leading" id="xtl-A3-MXR"/>
+                            <constraint firstItem="5ub-iG-5RS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="9JN-Ts-agC"/>
+                            <constraint firstItem="5ub-iG-5RS" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="i1U-tr-Ljc"/>
+                            <constraint firstAttribute="bottom" secondItem="Dlm-5A-fyL" secondAttribute="bottom" constant="20" symbolic="YES" id="mnj-4C-zya"/>
+                            <constraint firstItem="5ub-iG-5RS" firstAttribute="leading" secondItem="Dlm-5A-fyL" secondAttribute="leading" id="u4W-yS-fgz"/>
                         </constraints>
                     </view>
                     <connections>

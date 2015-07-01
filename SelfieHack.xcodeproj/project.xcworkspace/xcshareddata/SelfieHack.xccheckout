@@ -12,22 +12,34 @@
 	<dict>
 		<key>5544279DE725154CD8E08A780E3E739FCA2C41F1</key>
 		<string>https://github.com/vdthatte/selfieHack.git</string>
+		<key>7C5185C2F8C1B6BFAAC8BE020629B8C4FDF0C605</key>
+		<string>https://github.com/vdthatte/Perfect-Rear-Shot.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SelfieHack.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5544279DE725154CD8E08A780E3E739FCA2C41F1</key>
+		<string>../../../selfieHack-github-repo</string>
+		<key>7C5185C2F8C1B6BFAAC8BE020629B8C4FDF0C605</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/vdthatte/selfieHack.git</string>
+	<string>https://github.com/vdthatte/Perfect-Rear-Shot.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5544279DE725154CD8E08A780E3E739FCA2C41F1</string>
+	<string>7C5185C2F8C1B6BFAAC8BE020629B8C4FDF0C605</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C5185C2F8C1B6BFAAC8BE020629B8C4FDF0C605</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Perfect-Rear-Shot</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
